@@ -1,28 +1,28 @@
-# 📄 Research Paper Analyzer with LLM & Multilingual Translation
+# Research Paper Analyzer with LLM & Multilingual Translation
 
 > Intelligently analyze research papers, simplify complex content using LLMs, and translate results into regional languages — without reading the entire document.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project builds an end-to-end NLP pipeline that processes research papers in PDF format. It extracts key information, generates chunk-wise summaries using a language model (FLAN-T5), and translates the output into user-selected Indian regional languages via the Sarvam AI API.
 
 ---
 
-## 🎯 Features
+## Features
 
-- 📑 Extracts **Title** and **Abstract** from research PDFs
-- 🧹 Cleans noisy PDF text (removes metadata, author info, etc.)
-- ✂️ Splits abstract into **sentence-based chunks**
-- 🧠 Generates **chunk-wise summaries** using LLM (FLAN-T5)
-- 📌 Converts summaries into **structured bullet points**
-- 🌍 **Translates** title and each summary bullet into a user-selected language using Sarvam AI
-- 🧩 Handles API input constraints using **chunk-based translation**
+- Extracts **Title** and **Abstract** from research PDFs
+- Cleans noisy PDF text (removes metadata, author info, etc.)
+- Splits abstract into **sentence-based chunks**
+- Generates **chunk-wise summaries** using LLM (FLAN-T5)
+- Converts summaries into **structured bullet points**
+- **Translates** title and each summary bullet into a user-selected language using Sarvam AI
+- Handles API input constraints using **chunk-based translation**
 
 ---
 
-## 🧠 Pipeline
+## Pipeline
 
 ```
 PDF → Text Extraction → Cleaning → Chunking
@@ -33,7 +33,7 @@ PDF → Text Extraction → Cleaning → Chunking
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -45,7 +45,7 @@ PDF → Text Extraction → Cleaning → Chunking
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── notebook.ipynb   # Main pipeline notebook
@@ -54,7 +54,7 @@ PDF → Text Extraction → Cleaning → Chunking
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Install Dependencies
 
@@ -76,7 +76,7 @@ export SARVAM_API_KEY="your_api_key_here"
 
 ---
 
-## 🌍 Supported Languages
+## Supported Languages
 
 | Language | Code |
 |---|---|
@@ -90,22 +90,22 @@ export SARVAM_API_KEY="your_api_key_here"
 
 ---
 
-## 📸 Sample Output
+## Sample Output
 
 ```
-📄 TITLE (ENGLISH):
+TITLE (ENGLISH):
 Attention Is All You Need
 
-🌍 TITLE (TRANSLATED):
+TITLE (TRANSLATED):
 सारा ध्यान ही पर्याप्त है
 
-🧠 ENGLISH SUMMARY:
+ENGLISH SUMMARY:
 - Transformer replaces RNN/CNN with attention mechanism
 - Improves translation performance and efficiency
 - Enables faster parallel training
 - Achieves state-of-the-art results
 
-🌍 TRANSLATED SUMMARY:
+TRANSLATED SUMMARY:
 - ट्रांसफॉर्मर ध्यान तंत्र का उपयोग करता है
 - प्रदर्शन और प्रशिक्षण दक्षता में सुधार करता है
 - प्रशिक्षण को तेज़ बनाता है
@@ -114,7 +114,7 @@ Attention Is All You Need
 
 ---
 
-## 💡 Key Highlights
+## Key Highlights
 
 - Uses **semantic understanding (LLM)** instead of basic text parsing
 - Implements **chunk-wise summarization** for long documents
@@ -124,7 +124,7 @@ Attention Is All You Need
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - [ ] Full research paper summarization (beyond abstract)
 - [ ] Table and figure extraction
@@ -134,7 +134,7 @@ Attention Is All You Need
 
 ---
 
-## 📌 Use Cases
+## Use Cases
 
 - Students understanding research papers quickly
 - Researchers conducting rapid literature reviews
@@ -143,12 +143,14 @@ Attention Is All You Need
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to fork this repository, open issues, or submit pull requests to enhance the project.
 
 ---
 
-## 📬 Contact
+## Contact:
+Vardha Kathuria
+vardhakathuria@gmail.com
 
 For queries or collaboration opportunities, feel free to connect.
