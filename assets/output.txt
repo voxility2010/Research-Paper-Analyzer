@@ -1,0 +1,45 @@
+
+============================================================
+RESEARCH PAPER ANALYSIS REPORT
+============================================================
+
+TITLE (ENGLISH):
+
+Attention Is All You Need
+
+TITLE (TRANSLATED):
+
+बस ध्यान देना होगा।
+
+ABSTRACT (EXTRACTED):
+
+Abstract
+The dominant sequence transduction models are based on complex recurrent or
+convolutional neural networks that include an encoder and a decoder. The best
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer,
+based solely on attention mechanisms, dispensing with recurrence and convolutions
+entirely. Experiments on two machine translation tasks show these models to
+be superior in quality while being more parallelizable and requiring significantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-
+to-German translation task, improving over the existing best results, including
+ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task,
+our model est...
+
+ENGLISH SUMMARY:
+
+- We propose recurrent and convolutional neural networks for machine translation tasks. We propose a transformer based solely on attention mechanisms, dispensing with recurrence and convolutions.
+- We present a state-of-the-art single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data
+- We are proud to say that we've had a number of significant contributions to this work. We'd like to congratulate Jakob, Ashish, Noam and Niki on their contributions.
+- tensor2tensor is a neural information processing system designed and implemented by Lukasz Lukasz and Aidan Lukasz.
+
+TRANSLATED SUMMARY:
+
+- हम मशीन अनुवाद कार्यों के लिए आवर्ती और कन्वोलुशनल तंत्रिका तंत्र का प्रस्ताव करते हैं। हम पुनरावृत्ति और आवर्तन को छोड़कर, केवल ध्यान तंत्र पर आधारित एक ट्रांसफार्मर का प्रस्ताव करते हैं।
+- हम आठ जी.पी.यू. पर 3.5 दिनों के प्रशिक्षण के बाद 41.8 का एक अत्याधुनिक एकल-मॉडल अत्याधुनिक बी.एल.ई.यू. स्कोर प्रस्तुत करते हैं, जो साहित्य के सर्वश्रेष्ठ मॉडलों के प्रशिक्षण लागत का एक छोटा अंश है। हम दिखाते हैं कि ट्रांसफार्मर अन्य कार्यों के लिए अच्छी तरह से सामान्यीकृत होता है, क्योंकि इसे बड़े और सीमित प्रशिक्षण डेटा के साथ अंग्रेजी निर्वाचन क्षेत्र पार्सिंग पर सफलतापूर्वक लागू किया जाता है।
+- हम यह कहते हुए गौरान्वित हैं कि इस कार्य में हमारे द्वारा किए गए कई महत्वपूर्ण योगदान हैं। हम जैकब, आशीष, नोआम और निकी को उनके योगदान के लिए बधाई देना चाहते हैं।
+- टेन्सर2टेन्सर एक तंत्रिका सूचना प्रसंस्करण प्रणाली है जिसे लुकाश लुकाश और एडन लुकाश द्वारा डिज़ाइन और कार्यान्वित किया गया है।
+
+============================================================
+END OF REPORT
+============================================================
